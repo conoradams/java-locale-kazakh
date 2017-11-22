@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>name.valery1707.java</groupId>
+	<groupId>com.verint.name.valery1707.java</groupId>
 	<artifactId>locale-kazakh</artifactId>
 	<version>1.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -12,7 +12,7 @@
 		The Java Kazakh Locale is an implementation of Java localization SPIs which will allow the Java VM to use the Kazakh Language (locales "kk" and "kk_KZ"), official languages of Kazakhstan, which is not included in Oracle's JVM distribution.
 		Some source was found on The JAVAGALICIAN project (https://github.com/javagalician/javagalician-java6)
 	</description>
-	<url>https://github.com/valery1707/java-locale-kazakh</url>
+	<url>https://github.com/conoradams/java-locale-kazakh</url>
 
 	<licenses>
 		<license>
@@ -21,13 +21,6 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
-
-	<scm>
-		<url>https://github.com/valery1707/java-locale-kazakh</url>
-		<connection>scm:git:https://github.com/valery1707/java-locale-kazakh.git</connection>
-		<developerConnection>scm:git:git@github.com:valery1707/java-locale-kazakh.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
 
 	<inceptionYear>2015</inceptionYear>
 	<developers>
@@ -40,6 +33,16 @@
 				<role>developer</role>
 			</roles>
 			<timezone>+6</timezone>
+		</developer>
+		<developer>
+			<id>conor.adams</id>
+			<name>Conor Adams</name>
+			<email>stoopadams@gmail.com</email>
+			<url>https://github.com/conoradams</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>0</timezone>
 		</developer>
 	</developers>
 
