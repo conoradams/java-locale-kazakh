@@ -5,7 +5,7 @@ public final class KazakhStrings {
 	public static final String[] MONTH_LONG_STANDALONE = {"Қаңтар", "Ақпан", "Наурыз", "Сәуір", "Мамыр", "Маусым", "Шілде", "Тамыз", "Қыркүйек", "Қазан", "Қараша", "Желтоқсан"};
 	public static final String[] MONTH_LONG_FORMAT = MONTH_LONG_STANDALONE;
 
-	public static final String[] MONTH_SHORT_STANDALONE = MONTH_LONG_STANDALONE;
+	public static final String[] MONTH_SHORT_STANDALONE = {"Қаң", "Ақп", "Нау", "Сәу", "Мам", "Мау", "Шіл", "Там", "Қыр", "Қаз", "Қар", "Жел"};
 	public static final String[] MONTH_SHORT_FORMAT = MONTH_SHORT_STANDALONE;
 
 	public static final String[] MONTH_NARROW_STANDALONE = MONTH_SHORT_STANDALONE;
