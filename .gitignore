@@ -25,3 +25,5 @@ out/
 # Maven release plugin artifact
 release.properties
 pom.xml.releaseBackup
+
+build-logs/
